@@ -1,0 +1,42 @@
+.page-not-found-body {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("https://images.wallpaperscraft.com/image/ocean_surf_foam_sea_water_117846_2560x1440.jpg")
+      center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-not-found-text-404 {
+  color: #fff;
+  font-size: 15rem;
+  font-weight: 700;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.page-not-found-text-description {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 768px) {
+  .page-not-found-text-404 {
+    font-size: 12rem;
+  }
+
+  .page-not-found-text-description {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-not-found-text-404 {
+    font-size: 10rem;
+  }
+
+  .page-not-found-text-description {
+    font-size: 1.3rem;
+  }
+}

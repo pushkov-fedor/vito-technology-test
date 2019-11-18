@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-uploader,
+.page-not-found-body,
+.yoda-body {
+  flex: 1 0 auto;
+}
+
+.header {
+  flex-shrink: 0;
+}
+
+.footer {
+  flex-shrink: 0;
+}

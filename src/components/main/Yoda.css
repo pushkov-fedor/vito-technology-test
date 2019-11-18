@@ -1,0 +1,163 @@
+.yoda-body {
+  margin: 5rem;
+}
+
+.yoda-container {
+  height: 100%;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yoda-header {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #4b5ee8;
+  text-align: center;
+}
+
+.yoda-description {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #4b5ee8;
+  text-align: center;
+  width: 70%;
+}
+
+.yoda-form {
+  margin-top: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.yoda-text-input {
+  padding: 1rem 1rem 0.4rem 1rem;
+  width: 70%;
+  border: none;
+  border-bottom: 5px solid #4b5ee8;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  box-shadow: 4px 0 0px 0 rgba(255, 255, 255, 1),
+    -4px 0 0px 0 rgba(255, 255, 255, 1), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.yoda-text-input:focus {
+  outline: none;
+}
+
+.yoda-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 3.2rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #4b5ee8;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.yoda-button:focus {
+  outline: none;
+}
+
+.yoda-button:disabled {
+  opacity: 0.5;
+}
+
+.yoda-text {
+  text-align: center;
+  background-color: #4b5ee8;
+  color: #fff;
+  font-size: 2rem;
+  margin-top: 3rem;
+  padding: 3rem 2rem;
+  border-radius: 40px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.spinner-block {
+  margin-top: 3rem;
+}
+
+@media (max-width: 992px) {
+  .yoda-body {
+    margin: 4rem;
+  }
+
+  .yoda-header {
+    font-size: 4rem;
+  }
+
+  .yoda-description {
+    font-size: 1.8rem;
+  }
+
+  .yoda-text-input {
+    width: 80%;
+  }
+
+  .yoda-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .yoda-body {
+    margin: 4rem 3rem 3rem 3rem;
+  }
+
+  .yoda-header {
+    font-size: 3.5rem;
+  }
+
+  .yoda-description {
+    font-size: 1.6rem;
+  }
+
+  .yoda-text-input {
+    width: 85%;
+  }
+
+  .yoda-container {
+    width: 90%;
+  }
+
+  .yoda-text {
+    font-size: 1.5rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .yoda-body {
+    margin: 3rem 1.5rem;
+  }
+
+  .yoda-header {
+    font-size: 2.6rem;
+  }
+
+  .yoda-description {
+    font-size: 1.4rem;
+  }
+
+  .yoda-text-input {
+    width: 95%;
+  }
+
+  .yoda-container {
+    width: 100%;
+  }
+
+  .yoda-text {
+    font-size: 1.3rem;
+    padding: 1.5rem 0.9rem;
+  }
+}

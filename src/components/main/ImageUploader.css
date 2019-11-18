@@ -1,0 +1,123 @@
+.image-uploader {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.image-uploader-container {
+  width: 70%;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-uploader-header {
+  font-weight: 400;
+  padding: 1.5rem 0 0 0;
+  text-align: center;
+}
+
+.image-uploader-wrong-image-url-info {
+  justify-self: center;
+  padding: 1rem 2rem;
+  width: 60%;
+  margin: 1rem auto 0rem auto;
+  background-color: #e85e6c;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.image-uploader-wrong-image-url-info-text {
+  font-weight: 300;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.image-uploader-form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-uploader-text-input {
+  padding: 1rem 1rem 0.4rem 1rem;
+  width: 50%;
+  border: none;
+  border-bottom: 5px solid #4b5ee8;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 400;
+  box-shadow: 4px 0 0px 0 rgba(255, 255, 255, 1),
+    -4px 0 0px 0 rgba(255, 255, 255, 1), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.image-uploader-text-input:focus {
+  outline: none;
+}
+
+.image-uploader-button {
+  margin-top: 1.5rem;
+  padding: 0.8rem 3.2rem;
+  border-radius: 30px;
+  border: none;
+  background-color: #4b5ee8;
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.5rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.image-uploader-button:focus {
+  outline: none;
+}
+
+.image-uploader-button:disabled {
+  opacity: 0.5;
+}
+
+@media (max-width: 992px) {
+  .image-uploader-header {
+    font-size: 2rem;
+  }
+
+  .image-uploader-container {
+    width: 80%;
+  }
+
+  .image-uploader-text-input {
+    width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .image-uploader-header {
+    font-size: 1.8rem;
+  }
+
+  .image-uploader-container {
+    width: 90%;
+  }
+
+  .image-uploader-text-input {
+    width: 65%;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-uploader-header {
+    font-size: 1.65rem;
+  }
+
+  .image-uploader-container {
+    width: 100%;
+  }
+
+  .image-uploader-text-input {
+    width: 70%;
+  }
+}
